@@ -1,0 +1,36 @@
+=========================================================================================================
+Management of Memory:
+---------------------
+    1. Static Memory Allocations
+    2. Dynamic Memory Allocations
+
+Almost all programming languages can handle system memory. A program and all the variables used in the program occupy the precise memory space. Therefore, managing the memory with utmost care is one of the major tasks that the programmer should keep in mind while writing the code.
+
+When a variable is assigned to memory in a program, that memory location cannot be used by another variable or any other program. So, the C language provides techniques for allocating memory for various variables and programs.
+
+=========================================================================================================
+
+Static Memory Allocations:
+---------------------------
+In the static memory allocation technique, memory allocation occurs at compile time and remains the same throughout the program. There will be no change in the amount of memory nor any change in the location of the memory.
+
+=========================================================================================================
+
+Dynamic Memory Allocations:
+---------------------------
+In the dynamic memory allocation technique, memory allocation occurs while running a program. It has the facility to increase/decrease the allocated memory quantity and can release or free up the memory whenever not needed or used. Memory can also be reallocated if needed. It is more beneficial, and it can manage memory efficiently.
+
+The functions used to manipulate memory in C programming are : 
+malloc(), 
+calloc(), and 
+realloc(). 
+These commonly used functions are available through the stdlib() library, so you must include this library in your program to use them.
+
+::Dynamic Memory Allocations Functions::
+Function	Syntax
+--------    ------
+malloc()	malloc (number *sizeof(int));
+calloc()	calloc (number, sizeof(int));
+realloc()	realloc (pointer_name, number * sizeof(int));
+free()	    free (pointer_name);
+=========================================================================================================
