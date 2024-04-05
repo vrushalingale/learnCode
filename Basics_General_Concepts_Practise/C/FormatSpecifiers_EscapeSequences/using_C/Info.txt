@@ -1,0 +1,25 @@
+Format Specifiers : 
+    This is helpful in printing output of the programs, simetime we have to print 
+    output in specific way like: patterns star, pyramid,...
+    %c --> char
+    %d --> int
+    %f --> float
+        %18.4f --> float value with 18 bits space before decimal.
+    %l --> double 
+    %lf --> long
+
+Constants : 
+    Constant is a value that never change throughout the program.
+    ways to define: 
+        const keyword
+        #define preprocessor
+
+
+Escape Sequence :
+    Its s sequence of characters
+        \n --> New line
+        \b --> backspace
+        \f --> form feed
+        \a --> alarm/beep
+        \t --> Horizantal tab
+        \v --> Vertical tab
