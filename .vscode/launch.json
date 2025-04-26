@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Example",
+            "request": "launch",
+            "mainClass": "typeCasting.Example",
+            "projectName": "DSA_5f1078bf"
+        },
+        {
+            "type": "java",
+            "name": "WhyException",
+            "request": "launch",
+            "mainClass": "exceptionHandling.WhyException",
+            "projectName": "DSA_5f1078bf"
+        },
+        {
+            "type": "java",
             "name": "calAnnonymous",
             "request": "launch",
             "mainClass": "HelloWorld.calAnnonymous",
